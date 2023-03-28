@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="icon" href="#">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div id="mainNavigation">
+      <nav role="navigation">
+        <div class="py-3 text-center border-bottom">
+          <img class="logo" src="../img/logo.svg" alt="" class="invert">
+        </div>
+      <div class="navbar-expand-md">
+        <div class="navbar-dark text-center my-2">
+          <button class="navbar-toggler w-75" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span> <span class="align-middle">Menu</span>
+          </button>
+        </div>
+        <div class="text-center mt-3 collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav mx-auto ">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../about/about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../projects/index.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html">Shop</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </nav>
+    </div>
+
+
+      <!-- content  -->
+    <div class="content container animate__animated animate__fadeIn">
+        <div class="row g-0 row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 justify-content-around" id = "merlin">
+        </div>
+    </div>
+
+    <div class="cart mb-3">
+      <h2 class="text-center basket shadow-lg p-3 mb-5">
+        It's time to shop!</h2>
+      <div class="cart-products">
+    </div>
+<!-- Total amount -->
+    <div id="total" class="cart-total me-0 pb-2 text-center text-sm-end fw-bold">
+      <p class="cart-total-title m-0">Total <span id="price" class="cart-total-price h4 p-0 pe-sm-5 m-0 fw-bold">€ 0.00</span></p>
+  </div>
+
+
+  <!-- footer -->
+  <footer>
+    <div class="last">
+        <p>
+          About
+        </p>
+
+        <p>|</p>
+        <p>FAQ</p>
+        <p>|</p>
+        <p>
+           Homepage
+        </p>
+        <p>|</p>
+        <p>
+           Contact
+        </p>
+    </div>
+    <div class="last">
+        <a href="#" class="fa fa-facebook" style="color: white;"></a>
+        <a href="#" class="fa fa-twitter"  style="color: white;"></a>  
+        <a href="#" class="fa fa-instagram" style="color: white;"></a>  
+    </div>
+    <div class="last">
+        <p>Copyright &copy 2022 Valetina Vlahos</p>
+    </div>
+</footer>
+    <script src="shop.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>

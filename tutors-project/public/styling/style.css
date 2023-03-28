@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "DM Sans", sans-serif;
+}
+
+.icons {
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  position: fixed;
+  z-index: 100;
+  font-size: 20px;
+}
+.icons ul {
+  padding: initial;
+}
+.icons ul img {
+  width: 50px;
+}
+.icons ul li {
+  list-style-type: none;
+  padding-left: 12px;
+  padding-top: 6px;
+  margin-top: 5px;
+}
+.icons ul li:hover {
+  padding-left: 30px;
+  width: 80px;
+  transition: 1s;
+}/*# sourceMappingURL=style.css.map */

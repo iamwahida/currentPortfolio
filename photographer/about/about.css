@@ -1,0 +1,174 @@
+/* Background */
+#about-section {
+    background: rgba(32, 33, 36, 0.1);
+    position: relative;
+}
+
+/* Little box with text */
+.blockabout {
+   padding: 30px;
+    background: white;
+    font-family: Guppo;
+}
+
+.blockabout-inner {
+    padding: 30px;
+    border: 1px solid rgba(32, 33, 36, 0.1);
+}
+
+/* Social Media Icons */
+.socmed a i {
+    border: 1px solid #070707;
+    border-radius: 50%;
+    color: #070707;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    margin: auto 3px;
+    font-size: 15px;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+/* Book Me Button */
+.rey-btn {
+    border: 2px solid #070707;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 50px;
+    transition: all 0.3s;
+}
+
+.sendbutton {
+    border: 2px solid #070707;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 800%;
+    ;
+}
+
+.container-fluid {
+    font-family: Gruppo;
+}
+
+#mainNavigation a {
+    font-family: 'Gruppo', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4)
+}
+
+.dropdown-menu {
+    background: #a6795b
+}
+
+a.dropdown-toggle {
+    color: #dfdfdf !important
+}
+
+a.dropdown-item:hover {
+    color: #a6795b !important
+}
+
+.nav-item a {
+    color: #dfdfdf;
+
+}
+
+.nav-link.active {
+    color: #a6795b;
+}
+
+.nav-item a:hover {
+    color: #a6795b
+}
+
+.nav-item {
+    min-width: 12vw;
+}
+
+#mainNavigation {
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    padding-bottom: 135px;
+    height: 10vh;
+    z-index: 9;
+}
+
+#navbarNavDropdown.collapsing .navbar-nav,
+#navbarNavDropdown.show .navbar-nav {
+    background: #a6795b;
+    padding: 12px;
+}
+
+.navbar-toggler{
+
+    backdrop-filter: blur(2px);
+    font-weight: bold;
+    
+}
+
+.typer {
+    font-family: "Gruppo";
+    font-weight: 400;
+}
+
+body{
+    min-height: 2px;
+  }
+  
+  
+  
+  nav.scrolled{
+    
+    backdrop-filter: blur(4px);
+  }
+  .logo {
+    width: 45px;
+    height: 45px;
+}
+
+ul.scrolled li a{
+    color: #a6795b;
+    border-radius: 20px;
+    backdrop-filter: blur(2px);
+    background-size: cover;
+}
+
+ /* footer */
+  
+ footer {
+    margin-top: 100px;
+    border: 2px solid black;
+    width: 100%;
+    background-color: black;
+    padding-top: 10px;
+    color: white;
+  }
+    p {
+        font-size: 13px;
+        padding-left: 10px;
+    }
+    
+   a {
+        padding: 10px;
+        font-size: 10px;
+        font-size: 13px;
+    }
+  
+    .last {
+        display: flex;
+        justify-content: center;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+  

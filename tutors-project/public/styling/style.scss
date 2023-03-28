@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+// SOCIAL MEDIA
+
+.icons {
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    position: fixed;
+    z-index: 100;
+    font-size: 20px;
+    ul {
+        padding: initial;
+        img {
+            width: 50px;
+        }
+        li {
+            list-style-type: none;
+            padding-left: 12px;
+            padding-top: 6px;
+            margin-top: 5px;
+            
+            &:hover {
+                padding-left: 30px;
+                width: 80px;
+                transition: 1s;
+            }   
+        }
+    }
+}

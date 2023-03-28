@@ -1,0 +1,38 @@
+<nav class="main-header navbar navbar-expand-lg bg-light p-3">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold fs-3" href="/tutoring">
+        <img style="margin-right: 30px" src="https://cdn-icons-png.flaticon.com/512/201/201608.png" alt="Bootstrap" width="70" height="70">Studo</a>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+
+        {% if app.user %}
+        <div class="dropdown">
+          <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown">
+            First Steps
+          </button>
+          <ul class="dropdown-menu p-1 border border-0">
+            <li><a href="{{ path('app_university_index') }}"<button class="btn btn-outline-secondary mb-2 me-md-2 p-2" type="button">First create a University</button></a></li>
+            <li><a href="{{ path('app_subject_index') }}"<button class="btn btn-outline-secondary mb-2 me-md-2 p-2" type="button">Then create a Subject</button></a></li>
+            <li><a href="{{ path('app_card_content_index') }}"<button class="btn btn-outline-secondary mb-2 me-md-2 p-2" type="button">Now create a Tutoring Offer</button></a></li>
+            <li><a href="{{ path('app_tut_unit_index') }}"<button class="btn btn-outline-secondary mb-2 me-md-2 p-2" type="button">Mark Availability in Your Calender</button></a></li>
+            <li><a href="{{ path('app_tut_unit_index') }}"<button class="btn btn-outline-secondary mb-2 me-md-2 p-2" type="button">Book Availe Units as a Student</button></a></li>
+          </ul>
+        </div>
+
+        <a href="{{ path('app_logout') }}"<button class="btn btn-outline-secondary me-md-2" type="button">Logout {{ app.user.userIdentifier }}</button></a>
+        {% else %}
+          <a href="/login"><button class="btn btn-outline-secondary me-md-2" type="button">Login</button></a>
+          <div class="dropdown">
+            <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown">
+              Register
+            </button>
+            <ul class="dropdown-menu"  >
+              <li><a class="dropdown-item" href="/register/student">Student</a></li>
+              <li><a class="dropdown-item" href="/register/tutor">Tutor</a></li>
+            </ul>
+          </div>
+        {% endif %}
+
+
+      </div>
+    </div>
+  </nav>
